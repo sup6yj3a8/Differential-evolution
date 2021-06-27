@@ -103,6 +103,7 @@ public:
     
     virtual ~DifferentialEvolution(){}; // virtual destructor
     
+protected:
     /* data member */
     // Basic DE coefficient
     const ObjectFunction& cost;
